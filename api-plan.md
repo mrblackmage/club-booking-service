@@ -15,4 +15,8 @@
 
 ## Кошелёк
 - GET /wallet — баланс
-- POST /wallet/topup — пополнение
+- POST /wallet/topup — пополнение  
+
+## Real-time (WebSocket)
+- WS /realtime/map — live-обновление статусов мест для админки
+- WS /realtime/session — тикание таймера сессии у игрока
